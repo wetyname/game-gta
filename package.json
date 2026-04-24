@@ -1,0 +1,13 @@
+{
+  "name": "gta-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . GTA-Game --platform=win32 --arch=x64"
+  },
+  "devDependencies": {
+    "electron": "*",
+    "electron-packager": "*"
+  }
+}
